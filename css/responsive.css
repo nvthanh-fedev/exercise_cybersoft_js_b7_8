@@ -1,0 +1,17 @@
+@media screen and (max-width: 991px) {
+  #my-top-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .wrapper-heading {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  .wrapper-heading {
+    height: 150px;
+  }
+}
