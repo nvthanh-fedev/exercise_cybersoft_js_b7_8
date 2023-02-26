@@ -1,19 +1,33 @@
-# CAPSTONE BOOTSTRAP - Studious - Education Category
-CAPSTONE BOOTSTRAP Responsive Website Template - Using Bootstrap, Html5, Css3
-<!-- https://demo.w3layouts.com/demos_new/template_demo/13-03-2021/studious-liberty-demo_Free/425342591/web/index.html -->
+# Javascript - Cybersoft Academy
+
+Bài tập JS 7 - 8 - Xử lý mảng
+
+## Yêu cầu bài toán
+
+https://apicrm.cybersoft.edu.vn/files/30-01-2023-10-45-20-baitap_js_buoi_7-8.pdf
+
 ## Tác giả
+
 - [@nvthanh-fedev](https://www.github.com/nvthanh-fedev)
-- [@truonggiang2512](https://www.github.com/truonggiang2512)
-![Logo](https://cybersoft.edu.vn/wp-content/uploads/2017/04/MAX-OP1.png)
-    ## Nhiệm vụ
-    - Thanh: right-sidebar, site-header, banner, course, numbers, intructors, footer
-    - Giang: top-header, services, studious, section, feedback, contact
-## Lưu ý
-- Formart Html With: HTML Language Features
-- Formart CSS With: PostCSS Sorting, Prettier - Code fortmartter
-- Trước khi code: pull code về
-- Tạo nhánh cho mỗi Task theo cú pháp, ví dụ: thanh-branch1-right-sidebar, giang-branch1-top-header,...
-- Code trên file CSS riêng, sau khi đã hoàn tất code thì gọp code css vào file chung
-- Lệnh tạo nhánh và chuyển sang nhánh mới: git checkout -b tennhanh
-- Kiểm tra nhánh hiện tại: git branch
-# capstone_bootstrap
+
+  ![Logo](https://cybersoft.edu.vn/wp-content/uploads/2017/04/MAX-OP1.png)
+
+## Link demo
+
+
+
+## Mô tả bài tập
+
+Cho người dùng nhập vào các số nguyên và lưu trữ trong mảng.
+Thiết kế layout cho người dùng chọn thực hiện các chức năng bên dưới:
+
+1. Tổng các số dương trong mảng.
+2. Đếm có bao nhiêu số dương trong mảng.
+3. Tìm số nhỏ nhất trong mảng.
+4. Tìm số dương nhỏ nhất trong mảng.
+5. Tìm số chẵn cuối cùng trong mảng. Nếu mảng không có giá trị chẵn thì trả về -1.
+6. Đổi chỗ 2 giá trị trong mảng theo vị trí (Cho nhập vào 2 vị trí muốn đổi chỗ giá trị).
+7. Sắp xếp mảng theo thứ tự tăng dần.
+8. Tìm số nguyên tố đầu tiên trong mảng. Nếu mảng không có số nguyên tố thì trả về – 1.
+9. Nhập thêm 1 mảng số thực, tìm xem trong mảng có bao nhiêu số nguyên?
+10. So sánh số lượng số dương và số lượng số âm xem số nào nhiều hơn.

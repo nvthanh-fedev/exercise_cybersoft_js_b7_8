@@ -25,7 +25,7 @@
   <link rel="icon" href="img/icon.png" type="image/icon type" />
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70" id="myBody">
+<body>
   <!-- start my-top-nav -->
   <div id="my-top-nav">
     <div class="top-nav">
@@ -61,7 +61,7 @@
         <div class="col-lg-12 col-md-12 ml-auto">
           <div class="row">
             <div class="input-group col-xl-2 col-md-9 col-sm-9 mb-4">
-              <input type="number" class="form-control" id="input-so-n" placeholder="Nhâp số n" style="height: 50px;" />
+              <input type="number" class="form-control" id="input-so-n" placeholder="Nhâp số n" style="height: 50px" />
             </div>
             <div class="form-group col-xl-2 col-md-3 col-sm-3">
               <button id="btn-them-so" class="btn btn-block btn-primary py-2" style="height: 50px">
@@ -98,7 +98,7 @@
               </div>
               <div class="form-group col-xl-10 col-lg-9 col-md-12">
                 <div id="b1-alert" class="alert alert-primary" role="alert">
-                  Mảng:
+                  Tổng số dương là:
                 </div>
               </div>
             </div>
@@ -189,12 +189,12 @@
             <div class="accordion-body row mt-4">
               <div class="input-group col-xl-2 col-lg-3 col-md-12 mb-4">
                 <button id="b5-btn" class="btn btn-block btn-primary py-2" style="height: 50px">
-                  <span class="font-weight-bold">Thêm số</span>
+                  <span class="font-weight-bold">Tìm</span>
                 </button>
               </div>
               <div class="form-group col-xl-10 col-lg-9 col-md-12">
                 <div id="b5-alert" class="alert alert-primary" role="alert">
-                  Mảng:
+                  Số chẵn cuối cùng là:
                 </div>
               </div>
             </div>
@@ -211,14 +211,22 @@
           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
             data-bs-parent="#accordionExample">
             <div class="accordion-body row mt-4">
-              <div class="input-group col-xl-2 col-lg-3 col-md-12 mb-4">
+              <div class="input-group col-xl-4 col-md-6 col-sm-6 mb-4">
+                <input type="number" class="form-control" id="b6-input-1" placeholder="Nhâp số vị trí 1"
+                  style="height: 50px" />
+              </div>
+              <div class="input-group col-xl-4 col-md-6 col-sm-6 mb-4">
+                <input type="number" class="form-control" id="b6-input-2" placeholder="Nhâp số vị trí 2"
+                  style="height: 50px" />
+              </div>
+              <div class="input-group col-xl-4 col-md-12 mb-4">
                 <button id="b6-btn" class="btn btn-block btn-primary py-2" style="height: 50px">
-                  <span class="font-weight-bold">Thêm số</span>
+                  <span class="font-weight-bold">Đổi vị trí</span>
                 </button>
               </div>
-              <div class="form-group col-xl-10 col-lg-9 col-md-12">
+              <div class="form-group col-xl-12 col-lg-12 col-md-12">
                 <div id="b6-alert" class="alert alert-primary" role="alert">
-                  Mảng:
+                  Mảng sau khi đổi:
                 </div>
               </div>
             </div>
@@ -242,7 +250,7 @@
               </div>
               <div class="form-group col-xl-10 col-lg-9 col-md-12">
                 <div id="b7-alert" class="alert alert-primary" role="alert">
-                  Mảng:
+                  Mảng tăng dần:
                 </div>
               </div>
             </div>
@@ -253,7 +261,7 @@
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-              8. Tìm số nguyên đầu tiên
+              8. Tìm số nguyên tố đầu tiên
             </button>
           </h2>
           <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
@@ -261,12 +269,12 @@
             <div class="accordion-body row mt-4">
               <div class="input-group col-xl-2 col-lg-3 col-md-12 mb-4">
                 <button id="b8-btn" class="btn btn-block btn-primary py-2" style="height: 50px">
-                  <span class="font-weight-bold">Thêm số</span>
+                  <span class="font-weight-bold">Tìm</span>
                 </button>
               </div>
               <div class="form-group col-xl-10 col-lg-9 col-md-12">
                 <div id="b8-alert" class="alert alert-primary" role="alert">
-                  Mảng:
+                  Số nguyên tố đầu tiên là:
                 </div>
               </div>
             </div>
@@ -283,16 +291,43 @@
           <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
             data-bs-parent="#accordionExample">
             <div class="accordion-body row mt-4">
-              <div class="input-group col-xl-2 col-lg-3 col-md-12 mb-4">
-                <button id="b9-btn" class="btn btn-block btn-primary py-2" style="height: 50px">
+
+
+
+
+              <div class="input-group col-xl-6 col-md-6 col-sm-12 mb-4">
+                <input type="number" class="form-control" id="b9-input-new-num" placeholder="Nhập số mới" style="height: 50px" />
+              </div>
+              <div class="input-group col-xl-6 col-md-6 col-sm-12 mb-4">
+                <button id="b9-btn-add-num" class="btn btn-block btn-primary py-2" style="height: 50px">
                   <span class="font-weight-bold">Thêm số</span>
                 </button>
               </div>
-              <div class="form-group col-xl-10 col-lg-9 col-md-12">
-                <div id="b9-alert" class="alert alert-primary" role="alert">
+              <div class="form-group col-xl-12 col-lg-12 col-md-12">
+                <div id="b9-alert-print-new-arr" class="alert alert-primary" role="alert">
+                  Mảng mới:
+                </div>
+              </div>
+
+
+
+
+
+              <div class="input-group col-xl-12 col-lg-12 col-md-12 mt-5">
+                <button id="b9-btn-count-int" class="btn btn-block btn-primary py-2" style="height: 50px">
+                  <span class="font-weight-bold">Đếm số nguyên trong mảng mới</span>
+                </button>
+              </div>
+
+              <div class="form-group col-xl-12 col-lg-12 col-md-12">
+                <div id="b9-alert-count-int" class="alert alert-primary" role="alert">
                   Mảng:
                 </div>
               </div>
+
+
+
+
             </div>
           </div>
         </div>
@@ -309,7 +344,7 @@
             <div class="accordion-body row mt-4">
               <div class="input-group col-xl-2 col-lg-3 col-md-12 mb-4">
                 <button id="b10-btn" class="btn btn-block btn-primary py-2" style="height: 50px">
-                  <span class="font-weight-bold">Thêm số</span>
+                  <span class="font-weight-bold">So sánh</span>
                 </button>
               </div>
               <div class="form-group col-xl-10 col-lg-9 col-md-12">
@@ -328,6 +363,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="/js/method.js"></script>
+  <script src="/js/handle.js"></script>
   <script src="/js/index.js"></script>
 </body>
 
